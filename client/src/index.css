@@ -1,0 +1,31 @@
+.content
+{
+    position: relative;
+    top: 65%;
+    text-align: center;
+}
+
+.content p{
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.content h2{
+    color: rgb(107, 107, 248);
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.homeimg 
+{
+    position: relative;
+    top: 45%;
+    left: 10%;
+}
+
+.homeimg img {
+    height: 320px;
+    width: 370px;
+}
