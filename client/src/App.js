@@ -15,11 +15,11 @@ const App=()=> {
     <BrowserRouter>
       <Navbar/>
       <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/login' element={<Login/>}/>
-        <Route path='/signup' element={<Signup/>}/>
-        <Route path='/about' element={<About/>}/>
-        <Route path='/securepage' element={<SecurePage/>}/>
+        <Route path='https://login-authentification-api.vercel.app/' element={<Home/>}/>
+        <Route path='https://login-authentification-api.vercel.app/login' element={<Login/>}/>
+        <Route path='https://login-authentification-api.vercel.app/signup' element={<Signup/>}/>
+        <Route path='https://login-authentification-api.vercel.app/about' element={<About/>}/>
+        <Route path='https://login-authentification-api.vercel.app/securepage' element={<SecurePage/>}/>
         {/* <Route path='/logout' element={<Logout/>}/> */}
       </Routes>
       
